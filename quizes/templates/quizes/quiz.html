@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block scripts %}
+    <script src="{% static 'quizes/quiz.js' %}" defer></script>
+{% endblock scripts %}
+
+
+{% block title %}
+{{quiz_obj.name}}
+{% endblock title %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col"><a href="{% url 'quizes:main-view' %}" class="btn btn-primary">Go Back</a></div>
+    <div class="col text-right" id="timer-box"></div>
+</div>
+<div class="row">
+        <div class="col justify-content-center">
+            <p style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger; font-weight: bold; text-transform: uppercase;">{{quiz_obj.name}}</p>
+            <p style="text-align: center;">Score to Pass: {{quiz_obj.score_to_pass}}%</p>
+        </div>
+</div>
+
+
+
+
+<form id="quiz-form" class="mt-3 mb-3">
+    {% csrf_token %}
+    <div class="flex-container" style="display: flex;justify-content: space-around;">
+        <div class="card w-75 ">
+            <div class="card-body card-border-color=black" >
+                <p class="card-text"><div id="quiz-box"></div></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <button type="submit" class="btn btn-primary mt-3" style="float:center ;justify-content: center; align-items: center; margin-left: 45%; width:4cm">Save</button>
+</form>
+
+
+
+
+<div id="result-box">
+</div>
+<br>
+<div id="score-box" style="text-align: center;">
+</div>
+
+{% endblock content %}
+
+
+
+
+
+
