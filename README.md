@@ -1,4 +1,4 @@
-#***Quiz Web App***
+***#Quiz Web App***
 
 Hello everyone, my name is **Ishita Bharadwaj** and I am from India. I have built a Quiz app as my final project for cs50 Web. I have made use of Django and JavaScript for building my project. 
 
