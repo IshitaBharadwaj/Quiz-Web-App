@@ -30,11 +30,11 @@ I have included the following specifications in my app. Let’s jump right in:
 #### ***Apps:***
  I have 3 apps in my project namely: Questions, Quizes and Results. 
 
- > - The Questions app consists of 2 models: Answers and > Questions. It is used for feeding in the questions and their > respective answers into the database for each of the given > topics. The Answers model keeps track of the questions, > their right answers and the answers marked by user.
+ > - The Questions app consists of 2 models: Answers and Questions. It is used for feeding in the questions and their respective answers into the database for each of the given > topics. The Answers model keeps track of the questions, their right answers and the answers marked by user.
 
- > - The Quizes app consists of Quizes model that pertains to > the specifications of the topics/domains in my quiz app. I > have filled in the name of the quiz domain, the topic> (concept) on which the quiz is based, the difficulty, time > duration, score to pass, and number of questions to be > displayed on the screen when the quiz topic is selected.
+ > - The Quizes app consists of Quizes model that pertains to the specifications of the topics/domains in my quiz app. I have filled in the name of the quiz domain, the topic(concept) on which the quiz is based, the difficulty, time duration, score to pass, and number of questions to be displayed on the screen when the quiz topic is selected.
 
- > - The Results app consists of the Results model. This has > the quiz field for the topic that the user was quizzed on, > the user who took the quiz and the score the user got in that > quiz.
+ > - The Results app consists of the Results model. This has the quiz field for the topic that the user was quizzed on, the user who took the quiz and the score the user got in that quiz.
 
 
 #### ***Mobile Responsive:***
