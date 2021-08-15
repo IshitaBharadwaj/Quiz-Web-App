@@ -47,6 +47,8 @@ My project doesn’t need any extra requirements apart from django installation 
 - `python manage.py runserver`. 
 I am using Django version- Django==3.2.3
 
+> Be sure to create an admin account using the command: `python manage.py createsuperuser` so as to fill in the models with questions and answers for making your own quiz.
+
 
 I have had an amazing experience working on cs50 Web and have learnt a whole lot in the field of web development. This course not only taught me how and what to code but also how to figure things out myself and fix any problems that come my way. I faced many issues regarding the working of my models and the interdependence of my apps to carry out the required function. The styling was slightly smoother thanks to bootstrap documentation from which I included modals and cards in my project. Overall, it was an enriching experience with lots of learning and even more of logical analysis. Thank You Harvard for this course!
 
